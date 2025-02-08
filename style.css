@@ -1,0 +1,87 @@
+:root{
+    --primary-color: hsl(0, 0%, 20%);
+    --secondary-color: hsl(0, 0%, 12%);
+    --third-color: hsl(0, 0%, 8%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--third-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    font-family: "Inter", serif;
+    padding: 30px 10px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+.button{
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px;
+    min-width: 250px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+.description{
+    color: darkgray;
+    font-size: 14px;
+    margin: 20px;
+
+}
+
+.username{
+    font-size: 25px; 
+    font-weight: 500; 
+    color: white; 
+    margin: 10px;
+}
+
+.location{
+    color: hsl(75, 94%, 57%); 
+    font-size: 14px; 
+    font-weight: 600;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding: 10px;
+    width: 100%;
+    color: hsl(75, 94%, 57%);
+    position: absolute;
+    bottom: 5px;
+    
+}
+
+.attribution a { 
+    color: hsl(234, 72%, 48%); 
+}
